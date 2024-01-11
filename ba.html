@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Shanti Memorial Hospital">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Book Appointment</h2>
+        <form id="appointmentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="fromWhere">From Where:</label>
+            <input type="text" id="fromWhere" name="fromWhere" required>
+
+            <label for="preferredTime">Preferred Time:</label>
+            <input type="time" id="preferredTime" name="preferredTime" required>
+
+            <label for="preferredDate">Preferred Date:</label>
+            <input type="date" id="preferredDate" name="preferredDate" required>
+
+            <label for="doctor">Doctor to Meet:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="Dr Pranjal Jain">Dr Pranjal Jain</option>
+                <option value="Dr Prakhar Jain">Dr Prakhar Jain</option>
+                <option value="Dr Bharat Jain">Dr Bharat Jain</option>
+                <option value="Dr Bahubali Jain">Dr Bahubali Jain</option>
+                <!-- Add more doctors as needed -->
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shanti Memorial Hospital. All rights reserved.</p>
+    </footer>
+
+    <script src="scriptba.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanti Memorial Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ds.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Shanti Memorial Hospital">
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Doctors</a>
+            <a href="#">Patients</a>
+            <a href="#">Contact</a>
+        </nav>
+        <button id="bookAppointmentBtn"><a href="ba.html">Book Appointment</a></button>
+    </header>
+
+    <main>
+        <div class="landing-page">
+            <div class="content">
+                <h1>SHANTI MEMORIAL HOSPITAL</h1>
+                <p>Welcome to our affordable world-class healthcare services.</p>
+                <div class="arrow-btn" onclick="revealContent()">↓</div>
+            </div>
+        </div>
+        <h2>Our Expert Doctors</h2>
+        <section id="doctorSlider" class="swiper-container">
+            <div class="doctor-slider">
+                
+                <!-- Doctor Slide Items Go Here -->
+                <div class="doctor-slide">
+                    <img src="doctor1.jpg" alt="Doctor 1">
+                    <h3>Dr. Pranjal Jain</h3>
+                    <p>Specialty: AIIMS NEW DELHI Cardiology</p>
+                </div>
+                <div class="doctor-slide">
+                    <img src="doctor2.jpg" alt="Doctor 2">
+                    <h3>Dr. Prakhar Jain</h3>
+                    <p>Specialty: Pediatrics</p>
+                </div>
+                <div class="doctor-slide">
+                    <img src="doctor3.jpg" alt="Doctor 3">
+                    <h3>Dr. Bharat Jain</h3>
+                    <p>Specialty: medicine</p>
+                </div>
+                <div class="doctor-slide">
+                    <img src="doctor4.jpg" alt="Doctor 4">
+                    <h3>Dr. bahubali jain</h3>
+                    <p>Specialty: ayurvedic</p>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+        </div>
+        <button class="slide-button prev" onclick="prevSlide()">❮</button>
+        <button class="slide-button next" onclick="nextSlide()">❯</button>
+    </div>
+        </section>
+
+        <section id="patientSlider">
+            <!-- Patient Slider Content Goes Here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shanti Memorial Hospital. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
