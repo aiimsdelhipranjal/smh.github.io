@@ -17,7 +17,7 @@ body {
 }
 
 .doctor-slide {
-    flex: 0 0 25%; /* Four boxes in a row */
+    flex: 0 0 33.3%; /* Four boxes in a row */
     box-sizing: border-box;
     padding: 1em;
     text-align: center;
